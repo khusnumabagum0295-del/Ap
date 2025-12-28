@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Railway App Running Successfully 🚀"
+    return "Railway App Successfully Running 🚀"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
